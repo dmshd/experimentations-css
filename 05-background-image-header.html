@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>experimentation CSS 05 - color-and-contrast</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:600");
+
+      header {
+        background-color: #263d36;
+        background-image: url("assets/img/header.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 1.2;
+        padding: 10vw 2em;
+        text-align: center;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        /* color: #555; */
+        color: #566b78;
+      }
+      h1,
+      h2,
+      h3 {
+        /* font-family: 'Permanent Marker', cursive; */
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+      }
+      h1,
+      h2,
+      h3,
+      strong {
+        color: #333;
+      }
+      main {
+        margin: 0 auto;
+        max-width: 50em;
+        padding: 4em 1em;
+      }
+      code,
+      pre {
+        /* background: #eee; */
+        background: #f5f7f9;
+        border-bottom: 1px solid #d8dee9;
+        color: #a7adba;
+      }
+
+      code {
+        padding: 2px 4px;
+        vertical-align: text-bottom;
+      }
+
+      pre {
+        padding: 1em;
+        border-left: 2px solid #69c;
+      }
+      a {
+        color: #601ce8;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>background-image-header</h1>
+    </header>
+    <main>
+      <p>
+        header picture used is from
+        <a href="https://unsplash.com/" target="_blank">Unsplash</a> by
+        <a
+          style='background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px'
+          href="https://unsplash.com/@niko_photos?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Download free do whatever you want high-resolution photos from niko photos"
+          ><span style="display:inline-block;padding:2px 3px"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+              viewBox="0 0 32 32"
+            >
+              <title>unsplash-logo</title>
+              <path
+                d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"
+              ></path></svg></span
+          ><span style="display:inline-block;padding:2px 3px"
+            >niko photos</span
+          ></a
+        >
+      </p>
+      <p>
+        content made with
+        <a
+          href="https://www.webfx.com/web-design/html-ipsum/"
+          title="made with html ipsum link"
+          target="_blank"
+          HTML
+          Ipsum
+          >HTML Ipsum</a
+        >
+      </p>
+      <nav>
+        <ul>
+          <li>
+            <a href="#nowhere" title="Lorum ipsum dolor sit amet">Lorem</a>
+          </li>
+          <li>
+            <a href="#nowhere" title="Aliquam tincidunt mauris eu risus"
+              >Aliquam</a
+            >
+          </li>
+          <li>
+            <a href="#nowhere" title="Morbi in sem quis dui placerat ornare"
+              >Morbi</a
+            >
+          </li>
+          <li>
+            <a
+              href="#nowhere"
+              title="Praesent dapibus, neque id cursus faucibus"
+              >Praesent</a
+            >
+          </li>
+          <li>
+            <a href="#nowhere" title="Pellentesque fermentum dolor"
+              >Pellentesque</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <p>
+        <strong>Pellentesque habitant morbi tristique</strong> senectus et netus
+        et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
+        vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet
+        quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris
+        placerat eleifend leo. Quisque sit amet est et sapien ullamcoxrper
+        pharetra. Vestibulum erat wisi, condimentum sed,
+        <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum,
+        elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus
+        lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar
+        facilisis. Ut felis.
+      </p>
+
+      <h2>Header Level 2</h2>
+
+      <ol>
+        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+      </ol>
+
+      <blockquote>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          magna. Cras in mi at felis aliquet congue. Ut a est eget ligula
+          molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis
+          mollis, tellus est malesuada tellus, at luctus turpis elit sit amet
+          quam. Vivamus pretium ornare est.
+        </p>
+      </blockquote>
+
+      <h3>Header Level 3</h3>
+
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
+        leo.
+      </p>
+
+      <ul>
+        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+        <li>Aliquam tincidunt mauris eu risus.</li>
+      </ul>
+      <code>
+        <pre>
+          @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:600');
+  
+          body {
+            margin: 0 auto;
+            max-width: 50em;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.5;
+            padding: 4em 1em;
+            <strong>color: <span style="background-color: #555; color: #fff">#555</span>;</strong>
+          }
+          h1,
+          h2,
+          strong {
+            <strong>color: <span style="background-color: #333; color: #fff">#333</span>;</strong>
+          }
+          body {
+            margin: 0 auto;
+            max-width: 50em;
+            font-family: "Helvetica", "Arial", sans-serif;
+            line-height: 1.5;
+            padding: 4em 1em;
+            /* color: #555; */
+            <strong>color: <span style="background-color: #566b78; color: #fff">#566b78</span></strong>;
+          }
+          h1,
+          h2,
+          h3 {
+            /* font-family: 'Permanent Marker', cursive; */
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+          }
+          h1,
+          h2,
+          h3,
+          strong {
+            <strong>color: <span style="background-color: #333; color: #fff">#333</span></strong>;
+          }
+          code,
+          pre {
+            /* background: #eee; */
+            <strong>background: <span style="background-color: #f5f7f9; color: #333">#f5f7f9</span></strong>;
+            <strong>border--bottom: 2px solid <span style="background-color: #d8dee9; color: #555">#d8dee9</span></strong>;
+            <strong>color: <span style="background-color: #a7adba; color: #333">#a7adba</span></strong>;
+          }
+    
+          code {
+            padding: 2px 4px;
+            vertical-align: text-bottom;
+          }
+    
+          pre {
+            padding: 1em;
+            <strong>border-left: 2px solid <span style="background-color: #69c; color: #fff">#69c</span></strong>;
+          }
+          a {
+            <strong>color: <span style="background-color: #601ce8; color: #fff">#601ce8</span></strong>;
+          }
+        </pre>
+      </code>
+    </main>
+  </body>
+</html>
